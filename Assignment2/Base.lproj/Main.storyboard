@@ -38,8 +38,9 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mFA-o8-4p0">
                                                 <rect key="frame" x="0.0" y="53.666666666666671" width="393" height="54"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13×20=" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOb-Ro-gZS">
-                                                        <rect key="frame" x="0.0" y="0.0" width="368" height="54"/>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="                                                       13×20=" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GOb-Ro-gZS">
+                                                        <rect key="frame" x="0.0" y="0.0" width="393" height="56"/>
+                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
@@ -47,9 +48,14 @@
                                                 </subviews>
                                                 <color key="backgroundColor" systemColor="systemGrayColor"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="GOb-Ro-gZS" secondAttribute="trailing" id="7lc-KN-0Rv"/>
                                                     <constraint firstItem="GOb-Ro-gZS" firstAttribute="top" secondItem="mFA-o8-4p0" secondAttribute="top" id="8JE-V4-0RR"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GOb-Ro-gZS" secondAttribute="bottom" constant="-1" id="GWd-wp-Wbx"/>
                                                     <constraint firstAttribute="bottom" secondItem="GOb-Ro-gZS" secondAttribute="bottom" id="NDU-P1-DBa"/>
+                                                    <constraint firstAttribute="trailing" secondItem="GOb-Ro-gZS" secondAttribute="trailing" id="Qun-RB-8bz"/>
                                                     <constraint firstAttribute="trailing" secondItem="GOb-Ro-gZS" secondAttribute="trailing" constant="25" id="fIt-XS-oJW"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GOb-Ro-gZS" secondAttribute="bottom" constant="-1" id="vJi-PD-opZ"/>
+                                                    <constraint firstAttribute="bottom" secondItem="GOb-Ro-gZS" secondAttribute="bottom" constant="-2" id="xgq-vl-pDp"/>
                                                     <constraint firstItem="GOb-Ro-gZS" firstAttribute="leading" secondItem="mFA-o8-4p0" secondAttribute="leading" id="ytP-eI-Dev"/>
                                                 </constraints>
                                             </view>
