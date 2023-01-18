@@ -65,8 +65,8 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vXp-88-6i5">
                                         <rect key="frame" x="0.0" y="110.66666666666666" width="393" height="109.33333333333334"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="260" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="20" translatesAutoresizingMaskIntoConstraints="NO" id="DGB-yc-YLl">
-                                                <rect key="frame" x="0.0" y="0.0" width="373" height="109.33333333333333"/>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="bottomRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="260" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" translatesAutoresizingMaskIntoConstraints="NO" id="DGB-yc-YLl">
+                                                <rect key="frame" x="0.0" y="-16" width="373" height="125.33333333333333"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="80"/>
                                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <nil key="highlightedColor"/>
@@ -74,10 +74,10 @@
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemGrayColor"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="DGB-yc-YLl" secondAttribute="bottom" id="Awt-lN-78W"/>
                                             <constraint firstAttribute="trailing" secondItem="DGB-yc-YLl" secondAttribute="trailing" constant="20" id="F0U-Sn-WOe"/>
+                                            <constraint firstAttribute="bottom" secondItem="DGB-yc-YLl" secondAttribute="bottom" id="IO2-uK-X15"/>
+                                            <constraint firstItem="DGB-yc-YLl" firstAttribute="top" secondItem="vXp-88-6i5" secondAttribute="top" constant="-16" id="L9D-gL-UjW"/>
                                             <constraint firstItem="DGB-yc-YLl" firstAttribute="leading" secondItem="vXp-88-6i5" secondAttribute="leading" id="lWl-Nh-fjc"/>
-                                            <constraint firstItem="DGB-yc-YLl" firstAttribute="top" secondItem="vXp-88-6i5" secondAttribute="top" id="uSe-wf-mfv"/>
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="1" translatesAutoresizingMaskIntoConstraints="NO" id="7Uc-Dy-U9i">
